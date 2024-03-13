@@ -2,4 +2,4 @@ FROM openjdk
 
 WORKDIR /workspace
 
-RUN microdnf install git
+RUN microdnf install -y procps
